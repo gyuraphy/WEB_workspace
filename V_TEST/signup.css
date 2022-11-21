@@ -121,7 +121,8 @@ a, link {
     
 }
 .nav .nav_li ul {
-    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100px;    
 }
 .nav .nav_li ul li {}
 .nav .nav_li ul li a {}

@@ -100,6 +100,7 @@ a, link {
     width: 100%;  
     grid-template-columns: 200px 4fr 1fr;
     grid-template-rows: 100px;
+    transition: 0.7s; 
 }
 .nav .logo {
     position: relative;    
@@ -121,7 +122,8 @@ a, link {
     
 }
 .nav .nav_li ul {
-    grid-template-columns: 1fr 1fr 1fr 1fr;    
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    height: 100px;   
 }
 .nav .nav_li ul li {}
 .nav .nav_li ul li a {}

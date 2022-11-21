@@ -19,13 +19,14 @@
         integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
         crossorigin="anonymous"></script>
     <script src="cvc.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script>
 </head>
 
 <body>
     <div id="wrap">
         <div id="top">
             <div id="header">
-                <div class="nav grid">
+                <div class="nav grid" onmouseover="mover()" onmouseout="mout()">
                     <div class="logo">
                         <a href="#">
                             <img src="cvc_logo.png">                                                        
@@ -33,24 +34,24 @@
                     </div>
                     <div class="nav_li">
                         <ul class="grid">
-                            <li>
+                            <li onmouseover="fmover()">
                                 <a href="#">
-                                    <p>HOME</p>
+                                    <p class="hfc">HOME</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="cvc_evt.html">
-                                    <p>행사일정</p>
+                                    <p class="hfc">행사일정</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <p>시설안내</p>
+                                    <p class="hfc">시설안내</p>
                                 </a>
                             </li>
                             <li>
                                 <a href="#">
-                                    <p>알림마당</p>
+                                    <p class="hfc">알림마당</p>
                                 </a>
                             </li>
                         </ul>
@@ -59,13 +60,13 @@
                         <ul class="grid">
                             <li>
                                 <a href="cvc_login.html">
-                                    <p>로그인</p>
+                                    <p class="hfc">로그인</p>
                                 </a>
                             </li>
                             <div class="line"></div>
                             <li>
                                 <a href="cvc_signup.html">
-                                    <p>회원가입</p>
+                                    <p class="hfc">회원가입</p>
                                 </a>
                             </li>
                             <li></li>
@@ -74,8 +75,13 @@
                 </div>
             </div>
             <div id="container">
-                <div class="main_img">
-                    <img src="cvc_main2.jpg">
+                <div class="c_main">
+                    <div class="m_title">Do it, CVC!
+                        <p class="m_text"></p>
+                    </div>    
+                    <div class="main_img">                    
+                        <img src="cvc_main2.jpg">
+                    </div>
                 </div>
             </div>
             <div id="footer">
