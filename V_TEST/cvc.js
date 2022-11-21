@@ -7,10 +7,10 @@ window.onload = function () {
 
     // 글자 모음
     const letters = [
-        "Meeting",
-        "Incentive",
-        "Convention",
-        "Exhibition"
+        "[M]eeting",
+        "[I]ncentive",
+        "[C]onvention",
+        "[E]xhibition"
     ];
 
     // 글자 입력 속도
