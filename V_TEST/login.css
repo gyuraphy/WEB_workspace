@@ -141,6 +141,7 @@ a, link {
     margin-top: 10px;
     height: 16px;
     background-color: #000000;
+    transition: 0.7s;
 }
 .nav .sign_iu ul a {}
 .nav .sign_iu ul a p {    

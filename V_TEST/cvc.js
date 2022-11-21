@@ -56,6 +56,11 @@ window.onload = function () {
 
     // 초기 실행
     setTimeout(typing, 1500);
+
+    const a = document.querySelector('a');
+    a.addEventListener('mouseover', ()=> {
+        console.log('콘솔로그 실행');
+ });
 };
 
 function mover() {
@@ -63,7 +68,7 @@ function mover() {
     var hfc = document.querySelectorAll('.hfc');
     hbg.style.backgroundColor = "#ffffff";
     hbg.style.borderBottom = '1px solid #212529';    
-    document.querySelector('.line').backgroundColor = "#212529";
+    document.querySelector('.line').style.backgroundColor = "#212529";
 
     // var alist = document.querySelector('a');
     var i = 0;
@@ -77,7 +82,7 @@ function mout() {
     var hfc = document.querySelectorAll('.hfc');
     hbg.style.backgroundColor = "transparent"
     hbg.style.borderBottom = '1px solid #ffffff';
-    document.querySelector('.line').backgroundColor = "#ffffff";
+    document.querySelector('.line').style.backgroundColor = "#ffffff";
 
     var i = 0;
     while (i < hfc.length) {
@@ -87,7 +92,11 @@ function mout() {
 
 }
 
-function fmover() {
-    console.log(this);       
-    // self.style.borderBottom = '2px solid #212529';
+function fmover(self) {           
+    self.style.borderBottom = '2px solid #212529';
 }
+
+function fmout(self) {           
+    self.style.borderBottom = '2px solid transparent';
+}   
+

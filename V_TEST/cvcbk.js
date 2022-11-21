@@ -4,6 +4,7 @@ function mover() {
     var hfc = document.querySelectorAll('.hfc');
     hbg.style.backgroundColor = "#212529";
     hbg.style.borderBottom = '1px solid #ffffff';
+    document.querySelector('.line').style.backgroundColor = "#ffffff";
     
     // var alist = document.querySelector('a');
     var i = 0;
@@ -17,7 +18,7 @@ function mout() {
     var hfc = document.querySelectorAll('.hfc');
     hbg.style.backgroundColor = "#ffffff";
     hbg.style.borderBottom = '1px solid #212529';
-    
+    document.querySelector('.line').style.backgroundColor = "#212529";
 
     var i = 0;
     while (i < hfc.length) {

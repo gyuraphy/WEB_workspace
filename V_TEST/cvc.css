@@ -128,8 +128,14 @@ a, link {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     height: 100px;    
 }
-.nav .nav_li ul li {}
-.nav .nav_li ul li a {}
+.nav .nav_li ul li {
+    transition: 0.7s;
+}
+.nav .nav_li ul li a {
+    display: block;
+    height: 100px;
+    transition: 0.7s;
+}
 .nav .nav_li ul li a p {
     text-align: center;
     padding-top: 45px;
@@ -144,6 +150,7 @@ a, link {
     margin-top: 10px;
     height: 16px;
     background-color: #ffffff;
+    transition: 0.7s;
 }
 .nav .sign_iu ul a {}
 .nav .sign_iu ul a p {    
