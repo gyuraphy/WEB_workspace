@@ -134,7 +134,7 @@ a, link {
 .nav .nav_li ul li a {
     display: block;
     height: 100px;
-    transition: 0.7s;
+    /* transition: 0.7s; */
 }
 .nav .nav_li ul li a p {
     text-align: center;
@@ -152,7 +152,11 @@ a, link {
     background-color: #ffffff;
     transition: 0.7s;
 }
-.nav .sign_iu ul a {}
+.nav .sign_iu ul a {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
 .nav .sign_iu ul a p {    
     text-align: center;
     padding-top: 10px;
@@ -161,6 +165,7 @@ a, link {
 }
 .nav .sign_iu ul li:nth-child(3) a p {    
     padding-left: 2px;
+    width: 100%;
 }
 #container {    
     height: 700px;
@@ -217,6 +222,7 @@ a, link {
     color: #888888;
 }
 #footer .f_cr {
+    margin-bottom: 40px;
     text-align: center;
     font-size: 0.944em;
     color: #aeadad;

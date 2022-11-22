@@ -375,6 +375,7 @@ a, link {
     color: #888888;
 }
 #footer .f_cr {
+    margin-bottom: 40px;
     text-align: center;
     font-size: 0.944em;
     color: #aeadad;

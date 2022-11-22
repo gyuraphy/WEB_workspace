@@ -28,18 +28,20 @@ function mout() {
 
 }
 
+
+
 // 스크롤 이벤트
 
-const [scrollPosition, setScrollPosition] = useState(0);
+// const [scrollPosition, setScrollPosition] = useState(0);
 
-const updateScroll = () => {
-    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
-};
+// const updateScroll = () => {
+//     setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+// };
 
-useEffect(() => {
-    window.addEventListener('scroll', updateScroll);
-    return () => {
-        window.removeEventListener('scroll', updateScroll); //unmount시 해제되도록
-    };
-}, []);
+// useEffect(() => {
+//     window.addEventListener('scroll', updateScroll);
+//     return () => {
+//         window.removeEventListener('scroll', updateScroll); //unmount시 해제되도록
+//     };
+// }, []);
 

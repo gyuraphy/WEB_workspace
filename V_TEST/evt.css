@@ -190,7 +190,7 @@ a, link {
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
 }
 #footer .card {
-    width: 100%;
+    width: 222px;
     transition: 0.7s;    
 }
 #footer .card:hover {
@@ -222,6 +222,7 @@ a, link {
     color: #888888;
 }
 #footer .f_cr {
+    margin-bottom: 40px;
     text-align: center;
     font-size: 0.944em;
     color: #aeadad;
