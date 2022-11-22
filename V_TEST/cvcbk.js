@@ -5,7 +5,7 @@ function mover() {
     hbg.style.backgroundColor = "#212529";
     hbg.style.borderBottom = '1px solid #ffffff';
     document.querySelector('.line').style.backgroundColor = "#ffffff";
-    
+
     // var alist = document.querySelector('a');
     var i = 0;
     while (i < hfc.length) {
@@ -27,3 +27,19 @@ function mout() {
     }
 
 }
+
+// 스크롤 이벤트
+
+const [scrollPosition, setScrollPosition] = useState(0);
+
+const updateScroll = () => {
+    setScrollPosition(window.scrollY || document.documentElement.scrollTop);
+};
+
+useEffect(() => {
+    window.addEventListener('scroll', updateScroll);
+    return () => {
+        window.removeEventListener('scroll', updateScroll); //unmount시 해제되도록
+    };
+}, []);
+

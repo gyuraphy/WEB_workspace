@@ -368,3 +368,14 @@ a, link {
 #footer .f_article .f_main p {
     font-size: 1.2em;
 }
+#footer .f_info {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.944em;
+    color: #888888;
+}
+#footer .f_cr {
+    text-align: center;
+    font-size: 0.944em;
+    color: #aeadad;
+}

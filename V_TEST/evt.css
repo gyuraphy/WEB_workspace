@@ -184,17 +184,21 @@ a, link {
     text-align: center;
 }
 #footer .f_article .f_main p {
-    font-size: 1.2em;
-}
-#footer .card {
-    width: 300px;    
-}
-#footer .card img{
-    width: 300px;
-    height: 380px;
+    font-size: 1.1em;
 }
 #footer .f_wrap {
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+#footer .card {
+    width: 100%;
+    transition: 0.7s;    
+}
+#footer .card:hover {
+    transform: scale(1.1);
+}
+#footer .card img{
+    width: 220px;
+    height: 280px;
 }
 #footer .f_wrap > div:first-child {
     margin: 40px 0 0 20px
@@ -206,5 +210,19 @@ a, link {
     margin: 40px 0 0 10px;
 }
 #footer .f_wrap > div:nth-child(4) {
-    margin: 0 20px 40px 10px;
+    margin: 0 0 40px 10px;
+}
+#footer .f_wrap > div:nth-child(5) {
+    margin: 40px 0px 0 10px;
+}
+#footer .f_info {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 0.944em;
+    color: #888888;
+}
+#footer .f_cr {
+    text-align: center;
+    font-size: 0.944em;
+    color: #aeadad;
 }
