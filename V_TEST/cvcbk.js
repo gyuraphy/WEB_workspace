@@ -28,7 +28,16 @@ function mout() {
 
 }
 
-
+$(document).ready(function () {
+ $('a').mouseover(function () {
+    console.log('올림');
+    $(this).not('a.logo_a').css('border-bottom', '3px solid #ffffff');    
+ });
+ $('a').mouseleave(function () {
+    console.log('나감');
+    $(this).not('a.logo_a').css('border-bottom', 'none');    
+ });
+});
 
 // 스크롤 이벤트
 

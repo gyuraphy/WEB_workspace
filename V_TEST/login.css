@@ -126,7 +126,11 @@ a, link {
     height: 100px;   
 }
 .nav .nav_li ul li {}
-.nav .nav_li ul li a {}
+.nav .nav_li ul li a {
+    display: block;
+    width: 100%;
+    height: 100px;
+}
 .nav .nav_li ul li a p {
     text-align: center;
     padding-top: 45px;
@@ -142,7 +146,11 @@ a, link {
     height: 16px;
     background-color: #000000;    
 }
-.nav .sign_iu ul a {}
+.nav .sign_iu ul a {
+    display: block;
+    width: 100%;
+    height: 40px;
+}
 .nav .sign_iu ul a p {    
     text-align: center;
     padding-top: 10px;

@@ -93,10 +93,10 @@ function mout() {
 }
 
 function fmover(self) {           
-    self.style.borderBottom = '2px solid #212529';
+    self.style.borderBottom = '3px solid #212529';
 }
 
 function fmout(self) {           
-    self.style.borderBottom = '2px solid transparent';
+    self.style.borderBottom = '3px solid transparent';
 }   
 
