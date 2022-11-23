@@ -62,10 +62,11 @@ $(window).scroll(function() {
     if($(this).scrollTop() >= 660) {
         $('.nav').css('background-color', '#212529');
         $('.hfc').css('color', '#ffffff');
-    }; 
-    // else {
-    //     $('.nav').css('background-color', 'transparent');
-    //     $('.hfc').css('color', '#212529');
+    };
+    // else if($('nav').offset().top = 0){
+    //     console.log('스크롤 탑 :' + $(this).scrollTop());
+    //     // $('.nav').css('background-color', 'transparent');
+    //     // $('.hfc').css('color', '#212529');
     // };
     // console.log($(this).scrollTop() >= $('.section').eq(2).offset().top);
     // if($(this).scrollTop() >= $('.section').eq(2).offset().top - 200) {

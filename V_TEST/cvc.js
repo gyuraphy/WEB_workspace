@@ -119,3 +119,14 @@ $(window).scroll(function() {
     //     myAni.reverse();					
     // }
 });
+
+$(document).ready(function () {
+    $('a').mouseenter(function () {
+       console.log('올림');
+    //    $(this).not('a.logo_a').css('border-bottom', '3px solid #ffffff');    
+    });
+    $('a').mouseleave(function () {
+       console.log('나감');
+    //    $(this).not('a.logo_a').css('border-bottom', 'none');    
+    });
+   });
