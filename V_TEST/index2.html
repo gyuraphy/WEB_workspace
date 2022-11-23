@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CVC</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="cvc2.css">
+    <script src="https://code.jquery.com/jquery-3.6.1.js" integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI=" crossorigin="anonymous"></script> 
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+        crossorigin="anonymous"></script>                
+    <script src="cvc2.js"></script>       
+</head>
+
+<body>
+    <div id="wrap">
+        <div class="wrap">
+            <div id="header">
+                <div class="nav grid" onmouseover="mover()" onmouseout="mout()">
+                    <div class="logo">
+                        <a href="#">
+                            <img src="cvc_logo.png">                                                        
+                        </a>
+                    </div>
+                    <div class="nav_li">
+                        <ul class="grid">
+                            <li class="t_li">
+                                <a href="#">
+                                    <p class="hfc">HOME</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="cvc_evt.html">
+                                    <p class="hfc">행사일정</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p class="hfc">시설안내</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <p class="hfc">알림마당</p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sign_iu">
+                        <ul class="grid">
+                            <li>
+                                <a href="cvc_login.html">
+                                    <p class="hfc">로그인</p>
+                                </a>
+                            </li>
+                            <div class="line"></div>
+                            <li>
+                                <a href="cvc_signup.html">
+                                    <p class="hfc">회원가입</p>
+                                </a>
+                            </li>
+                            <li></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="container">
+                <div class="c_main">
+                    <div class="m_title">Do it, MICE!
+                        <p class="m_text"></p>
+                    </div>    
+                    <div class="main_img">                    
+                        <img src="cvc_main2.jpg" art="메인이미지2">
+                    </div>
+                </div>
+            </div>
+            <div id="footer">
+                <div class="f_article">
+                    <div class="f_title"><p>CONVENTION CENTER</p></div>
+                    <div class="f_main"><p>고객의 꿈을 실현하는 글로벌 MICE(Meeting, Incentive, Convention, Exhibition) 플랫폼</p></div>
+                    <div class="f_info grid">                        
+                        <div>
+                            <p>주소: 부산광역시 부산진구 중앙대로</p>
+                        </div>
+                        <div>
+                            <p>TEL: 0980-85-3111  FAX: 0980-84-6001  E-MAIL: bitc@bitc.co.kr</p>
+                        </div>
+                    </div>
+                    <div class="f_cr">
+                        <p>COPYRIGHT (C) IRAEM All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="wrap">
+            <div class="slide-show">
+                <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://via.placeholder.com/1200x300.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/1200x300.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://via.placeholder.com/1200x300.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <div class="f_article">
+                <div class="f_title"><p>행사일정</p></div>
+                <div class="f_main">
+                    <div class="f_wrap grid">
+                        <div>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">전시회#1</h5>
+                                  <p class="card-text">기간: 11/18 ~ 11/25</p>
+                                  <p class="card-text"><small class="text-muted">행사내용: ***</small></p>
+                                </div>
+                                <img src="evt_eh.jpg" class="card-img-bottom" alt="...">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">회의#1</h5>
+                                  <p class="card-text">기간: 11/18 ~ 11/25</p>
+                                  <p class="card-text"><small class="text-muted">행사내용: ***</small></p>
+                                </div>
+                                <img src="evt_cf.jpg" class="card-img-bottom" alt="...">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">회의#2</h5>
+                                  <p class="card-text">기간: 11/18 ~ 11/25</p>
+                                  <p class="card-text"><small class="text-muted">행사내용: ***</small></p>
+                                </div>
+                                <img src="evt_cf.jpg" class="card-img-bottom" alt="...">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">이벤트#1</h5>
+                                  <p class="card-text">기간: 11/18 ~ 11/25</p>
+                                  <p class="card-text"><small class="text-muted">행사내용: ***</small></p>
+                                </div>
+                                <img src="evt_evt.jpg" class="card-img-bottom" alt="...">
+                            </div>
+                        </div>
+                        <div>
+                            <div class="card">
+                                <div class="card-body">
+                                  <h5 class="card-title">전시회#2</h5>
+                                  <p class="card-text">기간: 11/18 ~ 11/25</p>
+                                  <p class="card-text"><small class="text-muted">행사내용: ***</small></p>
+                                </div>
+                                <img src="evt_eh.jpg" class="card-img-bottom" alt="...">
+                            </div>
+                        </div>                                                    
+                    </div>
+                </div>
+                <div class="f_info grid">                        
+                    <div>
+                        <p>주소: 부산광역시 부산진구 중앙대로</p>
+                    </div>
+                    <div>
+                        <p>TEL: 0980-85-3111  FAX: 0980-84-6001  E-MAIL: bitc@bitc.co.kr</p>
+                    </div>
+                </div>
+                <div class="f_cr">
+                    <p>COPYRIGHT (C) IRAEM All Rights Reserved.</p>
+                </div>
+            </div>     
+        </div>
+    </div>
+</body>
+
+</html>

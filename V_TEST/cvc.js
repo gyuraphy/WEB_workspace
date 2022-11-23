@@ -1,4 +1,3 @@
-
 window.onload = function () {
 
 
@@ -100,3 +99,23 @@ function fmout(self) {
     self.style.borderBottom = '3px solid transparent';
 }   
 
+$(window).scroll(function() {
+    console.log('스크롤의 위치 : ' + $(this).scrollTop());
+    console.log('타겟의 위치 : ' + $('.nav').offset().top);
+    console.log($(this).scrollTop() > 660);
+    
+    if($(this).scrollTop() >= 660) {
+        $('.nav').css('background-color', '#212529');
+        $('.hfc').css('color', '#ffffff');
+    }; 
+    // else {
+    //     $('.nav').css('background-color', 'transparent');
+    //     $('.hfc').css('color', '#212529');
+    // };
+    // console.log($(this).scrollTop() >= $('.section').eq(2).offset().top);
+    // if($(this).scrollTop() >= $('.section').eq(2).offset().top - 200) {
+    //     myAni.play();
+    // } else {
+    //     myAni.reverse();					
+    // }
+});
